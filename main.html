@@ -13,14 +13,15 @@
 
 	<form action="" method="post">
 		<lable for="name">Name</lable>
-		<input type="text" id="name" required><br>
+		<input type="text" id="name" name="Name" required><br>
 
 		<lable for="email">Email</lable>
-		<input type="email" id="email" required><br>
+		<input type="email" id="email" name="Email" required><br>
 		
-		<lable>gender</lable>
-		<input type="radio" name="gender" required>Male
-		<input type="radio" name="gender" required>Female
+		<lable >gender</lable>
+		<input type="radio" name="gender" id="male" required>Male
+
+		<input type="radio" name="gender" id="female"required>Female
 
 		<label for="cars">Car Brands</label>
 		<select id=cars multiple>
